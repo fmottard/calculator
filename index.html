@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--<script>
+        var contenu = '';
+        function add(valeur) {
+            console.log(valeur);
+            contenu = contenu + valeur;
+            document.getElementById('texte').textContent = contenu;
+        }
+        function reset() {
+            document.getElementById('texte').textContent = '--';
+        }
+
+    </script> -->
+</head>
+
+<body>
+    <section id="texte" style="background-color:gray; font-size: 100px; width:60%">a</section>
+    <section>
+            
+   
+        <div>
+            <button onclick="reset()">Reset</button>
+        </div>
+
+        <div>
+            <button onclick="add('0')">0</button>
+        </div>
+        <div>
+            <button onclick="add('1')">1</button>
+            <button onclick="add('2')">2</button>
+            <button onclick="add('3')">3</button>
+        </div>
+        <div>
+            <button onclick="add('4')">4</button>
+            <button onclick="add('5')">5</button>
+            <button onclick="add('6')">6</button>
+        </div>
+        <div>
+            <button onclick="add('7')">7</button>
+            <button onclick="add('8')">8</button>
+            <button onclick="add('9')">9</button>
+        </div>
+    </section>
+    <section>
+        <button onclick="additionne()">+</button>
+        <button onclick="soustrait()">-</button>
+        <button onclick="multiplie()">*</button>
+        <button onclick="divise()">/</button>
+        
+        <button onclick="egal()">=</button>
+    </section>
+
+    <script src="build/index.js"></script>
+</body>
+
+</html>
